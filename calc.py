@@ -7,6 +7,8 @@ def calc(operation, first_number, second_number):
         return first_number * second_number
     elif operation == '/':
         return first_number / second_number
+    elif operation == '^':
+        return first_number ^ second_number
 
 numberone = input('What is your first number?')
 numberone = int(numberone)
